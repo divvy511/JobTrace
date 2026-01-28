@@ -1,10 +1,6 @@
-<<<<<<< HEAD
 # JobTrace
 Privacy-first, manual AI-assisted desktop tool to track job applications using screen context and Google Gemini Vision.
 =======
-# JobTrace 🧠📋
-
-**Privacy-first, manual, AI-assisted job search activity tracker**
 
 JobTrace helps you keep a clean, structured record of your job search activities (applications, recruiter messages, job views, interviews, etc.) by turning your screen work into organized rows in Google Sheets — but **only when you tell it to analyze**.
 
