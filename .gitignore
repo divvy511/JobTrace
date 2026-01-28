@@ -1,0 +1,105 @@
+# Python bytecode / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environments (uv, venv, poetry, etc.)
+.venv/
+venv/
+env/
+ENV/
+
+# uv lockfile - usually NOT ignored if you want reproducible installs
+# But many teams do ignore it if they prefer to regenerate on CI
+# Recommendation for JobTrace (personal/tool project): COMMIT uv.lock
+# So we do NOT ignore it here
+# uv.lock
+
+# Distribution / packaging folders
+build/
+dist/
+*.egg-info/
+*.egg
+eggs/
+parts/
+sdist/
+var/
+wheels/
+*.manifest
+*.spec
+
+# Installer logs & temp files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+coverage.xml
+*.cover
+*.py,cover
+.tox/
+.nox/
+
+# Temporary / editor files
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.bak
+*.tmp
+*.temp
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+
+# Environment variables & secrets (VERY IMPORTANT)
+.env
+.env.*
+!.env.example          # if you have a template, keep it
+service_account.json   # ← your Google service account key
+service_account*.json
+
+# Project-specific temporary folders you have
+temp/
+tmp/
+cache/
+*.cache
+
+# IDE / editor folders (add what you use)
+.vscode/
+.idea/
+*.sublime-*
+*.code-workspace
+
+# Windows-specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS-specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# PyInstaller (if you ever bundle to exe)
+# Usually these are generated from a script
+*.manifest
+*.spec
+
+# mypy, ruff, etc. caches (if you add them later)
+.mypy_cache/
+.ruff_cache/
+
+#Google Sheets 
+service_account.json
