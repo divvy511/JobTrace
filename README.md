@@ -228,4 +228,3 @@ Open an issue on GitHub — even if you’re just confused.
 We especially welcome feedback from first-time users.
 
 Happy (organized) job hunting! 🚀
->>>>>>> 276df44 (Initial release: JobTrace – privacy-first manual AI job activity tracker)
